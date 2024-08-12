@@ -26,7 +26,7 @@ This Node.js application allows you to resolve domain names to IP addresses and 
 To resolve a domain name, simply run the script with the domain as an argument:
 
 ```bash
-node index.js example.com
+node resolver.js example.com
 ```
 
 - The script first checks for a custom mapping in `data.json`. If a mapping exists, it returns the mapped IP address.
@@ -37,7 +37,7 @@ node index.js example.com
 To add or update a custom domain-to-IP mapping, use the `--add`, `--ip`, and `--domain` flags:
 
 ```bash
-node index.js --add --domain example.com --ip 93.184.216.34
+node resolver.js --add --domain example.com --ip 93.184.216.34
 ```
 
 - `--add` specifies that you're adding or updating a mapping.
