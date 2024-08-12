@@ -51,7 +51,7 @@ This will update the `data.json` file with the new mapping.
 **Resolve a Domain:**
 
 ```bash
-node index.js example.com
+node resolver.js example.com
 ```
 
 Output:
@@ -63,13 +63,13 @@ Output:
 **Add a Mapping:**
 
 ```bash
-node index.js --add --domain example.com --ip 93.184.216.34
+node resolver.js --add --domain example.com --ip 93.184.216.34
 ```
 
 **Resolve the Added Domain:**
 
 ```bash
-node index.js example.com
+node resolver.js example.com
 ```
 
 Output:
